@@ -1,0 +1,41 @@
+[package]
+name = "mcmc_sample_codes"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8"
+
+[[bin]]
+name = "pi_mc"
+path = "src/pi_mc.rs"
+
+[[bin]]
+name = "pi_mc_integral"
+path = "src/pi_mc_integral.rs"
+
+[[bin]]
+name = "three_sphere"
+path = "src/three_sphere.rs"
+
+[[bin]]
+name = "gaussian_metropolis"
+path = "src/gaussian_metropolis.rs"
+
+[[bin]]
+name = "gaussian_metropolis_2variables"
+path = "src/gaussian_metropolis_2variables.rs"
+
+[[bin]]
+name = "gaussian_hmc"
+path = "src/gaussian_hmc.rs"
+
+[[bin]]
+name = "gaussian_hmc_multi_variables"
+path = "src/gaussian_hmc_multi_variables.rs"
+
+[[bin]]
+name = "gaussian_gibbs"
+path = "src/gaussian_gibbs.rs"
